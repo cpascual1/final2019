@@ -68,7 +68,7 @@ chisq.test(table1)
 chisqtestGC(table1)
 ```
 
-The p-value for this chi-square test is 2.2e-16, which is less than our threshold of belief of .05. Since our p-value is less than .05, we could posibly reject the null hypothesis, but we still need to evaluate the fisher test to be certain.
+The p-value for this chi-square test is 2.761e-07, which is less than our threshold of belief of .05. Since our p-value is less than .05, we could posibly reject the null hypothesis, but we still need to evaluate the fisher test to be certain.
 
 ```{r}
 fisher.test(table1)
@@ -79,4 +79,4 @@ The p-value for this fisher test is 2.333e-07, which is less than our threshold 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
-Our p-value is 2.2e-16 for the chi-square test and 2.333e-07 for the fisher test. This means the probability of getting a sample like this under conditions when the null hypothesis is true is about 0%. Our p-value is less than our threshold of belief which is .05 (five percent). Since the p-value is less than .05, we reject the null hypothesis and conclude that there is a difference between taking the drug or taking the placebo and getting aids for everyone. This data shows that taking the drug is effective in preventing aids for everyone. This data also indicates that taking the drug has a positive effect for everyone. 
+Our p-value is 2.761e-07 for the chi-square test and 2.333e-07 for the fisher test. This means the probability of getting a sample like this under conditions when the null hypothesis is true is about 0%. Our p-value is less than our threshold of belief which is .05 (five percent). Since the p-value is less than .05, we reject the null hypothesis and conclude that there is a difference between taking the drug or taking the placebo and getting aids for everyone. This data shows that taking the drug is effective in preventing aids for everyone. This data also indicates that taking the drug has a positive effect for everyone. 
