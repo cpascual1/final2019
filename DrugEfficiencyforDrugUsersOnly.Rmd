@@ -47,7 +47,7 @@ It seems that the percentage of drug users who got aids and was taking the drug 
 barchartGC(~infected + treatment,data=DRUGU, type="percent", main="Drug Efficiency for Drug Users Only")
 ```
 
-By the looks of the barchart, the drug seems to be working. It seems that the percentage of drug users who got aids and was taking the drug is lower than that of those who took the placebo. But we need more information before we can reject or fail to reject the null hypothesis. 
+By the looks of the barchart, the drug seems to be working for drug users. It seems that the percentage of drug users who got aids and was taking the drug is lower than that of those who took the placebo. But we need more information before we can reject or fail to reject the null hypothesis. 
 
 
 ### Numerical Descriptive Results
@@ -80,4 +80,4 @@ The p-value for this fisher test is 4.23e-08, which is less than our threshold o
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
-Our p-value is 1.242-e07 for the chi-square test and 4.23e-08 for the fisher test. This means the probability of getting a sample like this under conditions when the null hypothesis is true is about 0%. Our p-value is less than our threshold of belief which is .05 (five percent). Since the p-value is less than .05, we reject the null hypothesis and conclude that there is a difference between taking the drug or taking the placebo and getting aids for drug users only. This data shows that taking the drug is effective in preventing aids for drug users only. This data also indicates that taking the drug has a positive effect for drug users. 
+Our p-value is 1.242-e07 for the chi-square test and 4.23e-08 for the fisher test. This means the probability of getting a sample like this under conditions when the null hypothesis is true is about 0%. Our p-value is less than our threshold of belief which is .05 (five percent). Since the p-value is less than .05, we reject the null hypothesis and conclude that there is a difference between taking the drug or taking the placebo and getting aids for drug users only. This data shows that taking the drug is effective in preventing aids for drug users only. This data also indicates that taking the drug has a positive effect for drug users. The numerical results show that 24% of drug users who took the drug got aids and 76% of those who took the placebo got aids, this shows that the drug is is working drug users. 
