@@ -47,7 +47,7 @@ It seems that the percentage of the LGBTQ community who got aids and was taking 
 barchartGC(~infected + treatment,data=LQ, type="percent", main="Drug Efficiency for LGBTQ Only")
 ```
 
-By the looks of the barchart, the drug doesn't seems to be working. It seems that the percentage of the LGBTQ community who got aids and was taking the drug is higher than that of those who took the placebo. But we need more information before we can reject or fail to reject the null hypothesis.
+By the looks of the barchart, the drug doesn't seems to be working the LGBTQ community. It seems that the percentage of the LGBTQ community who got aids and was taking the drug is higher than that of those who took the placebo. But we need more information before we can reject or fail to reject the null hypothesis.
 
 ### Numerical Descriptive Results
 
@@ -79,5 +79,5 @@ The p-value for this fisher test is 2.998e-06, which is less than our threshold 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
-Our p-value is 5.029-e06 for the chi-square test and 2998e-06 for the fisher test. This means the probability of getting a sample like this under conditions when the null hypothesis is true is about 0%. Our p-value is less than our threshold of belief which is .05 (five percent). Since the p-value is less than .05, we reject the null hypothesis and conclude that there is a difference between taking the drug or taking the placebo and getting aids for the LGBTQ community only. This data shows that taking the drug is ineffective in preventing aids for the LGBTQ comunity only. This data also indicates that taking the drug has a negative effect for the LGBTQ. 
+Our p-value is 5.029-e06 for the chi-square test and 2998e-06 for the fisher test. This means the probability of getting a sample like this under conditions when the null hypothesis is true is about 0%. Our p-value is less than our threshold of belief which is .05 (five percent). Since the p-value is less than .05, we reject the null hypothesis and conclude that there is a difference between taking the drug or taking the placebo and getting aids for the LGBTQ community only. This data shows that taking the drug is ineffective in preventing aids for the LGBTQ comunity only. This data also indicates that taking the drug has a negative effect for the LGBTQ. The numerical results show that 72% of drug users who took the drug got aids and 29% of those who took the placebo got aids, this shows that the drug is not working for LGBTQ. 
 
